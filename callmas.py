@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # Coded by KANG-NEWBIE
 """
-ngapai bosq? mau recode?
-tinggal pake aja susah amat sih?!
+ini coba belajar rekode
+lumayan tambah ilmu ......
 """
 
 try:
@@ -21,7 +21,7 @@ w=('\033[1;37m')
 print("""%s
 			SPAM CALL MASSAL V4.0%s
  ,_     _‚
- |\\\___//|	%sAuthor: KANG-NEWBIE%s
+ |\\\___//|	%sAuthor Asli: KANG-NEWBIE%s
  |=6   6=|	%sContact: https://t.me/kang_nuubi%s
  \=._Y_.=/	%sGithub: https://github.com/KANG-NEWBIE%s
   )  `  (    ,	%sTEAM: CRABS (t.me/CRABS_ID)%s
@@ -30,11 +30,13 @@ print("""%s
 /| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 628XXXXXX)%s
 \| |._.| |/-’
  '"'   '"'
-<NOTE> Jika terjadi ERROR atau BUG dan lain-lain, silahkan hubungi saya"""%(c,r,g,r,g,r,g,r,g,r,w,r))
+<NOTE> Jika terjadi ERROR atau BUG dan lain-lain, silahkan usaha lagi ^_^v """%(c,r,g,r,g,r,g,r,g,r,w,r))
 print("%s[*] Klik ENTER untuk melewati step%s"%(g,g))
 no1 = input("[?] NUM TARGET1 => %s"%(w))
 no2 = input("%s[?] NUM TARGET2 => %s"%(g,w))
 no3 = input("%s[?] NUM TARGET3 => %s"%(g,w))
+no4 = input("%s[?] NUM TARGET4 => %s"%(g,w))
+no5 = input("%s[?] NUM TARGET5 => %s"%(g,w))
 jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
 
 try:
@@ -44,7 +46,7 @@ try:
 	for i in range(jlmh):
 		cout=1
 		print(f"{'{'}{i+1}{'}'}"+"="*40+f"{'{'}{i+1}{'}'}")
-		for i in no1,no2,no3:
+		for i in no1,no2,no3,no4,no5:
 			if i == '':
 				cout+=1
 				continue
